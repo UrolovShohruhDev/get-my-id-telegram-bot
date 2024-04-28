@@ -49,7 +49,7 @@ async def start():
         BotCommand(command='/start', description='Botni ishga tushirish'),
         BotCommand(command='/help', description='Yordam')
     ])
-    await dp.start_polling(bot, polling_timeout=1)
+    await dp.start_polling(bot)
 
 
 run(start())
